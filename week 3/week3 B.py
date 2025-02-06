@@ -1,3 +1,4 @@
+#step 1: import libarys
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
@@ -5,7 +6,7 @@ from sklearn.tree import DecisionTreeClassifier, plot_tree
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 import matplotlib.pyplot as plt
 
-# Step 2: Load the Dataset
+# Step 2: Loading the Dataset from the url
 url = "https://archive.ics.uci.edu/ml/machine-learning-databases/mushroom/agaricus-lepiota.data"
 columns = ["class", "cap-shape", "cap-surface", "cap-color", "bruises", "odor",
            "gill-attachment", "gill-spacing", "gill-size", "gill-color",
@@ -13,7 +14,7 @@ columns = ["class", "cap-shape", "cap-surface", "cap-color", "bruises", "odor",
            "stalk-surface-below-ring", "stalk-color-above-ring",
            "stalk-color-below-ring", "veil-type", "veil-color",
            "ring-number", "ring-type", "spore-print-color", "population", "habitat"]
-
+#putting the dataset into pandas
 data = pd.read_csv(url, header=None, names=columns)
 
 # Step 3: Preprocess the Data
@@ -48,7 +49,8 @@ plot_tree(classifier, feature_names=X.columns, class_names=["edible", "poisonous
 plt.show()
 
 """
-1.
+1. We would have to label the data because the dataset contains categorical features. So, we need
+to convert them into numerical values using LabelEncoder()
 2.
 3.
 4.
