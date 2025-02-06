@@ -51,7 +51,7 @@ plt.show()
 """
 1. We would have to label the data because the dataset contains categorical features. So, we need
 to convert them into numerical values using LabelEncoder()
-2.
+2.The max_depth parameter is to control how deep the decision tree can be.
 3.
 4.
 5.
