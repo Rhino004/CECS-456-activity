@@ -30,7 +30,10 @@ y = data["class"]
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 # Step 5: Train the Model
-classifier = DecisionTreeClassifier(criterion="entropy", max_depth=5, random_state=42)
+#classifier = DecisionTreeClassifier(criterion="entropy", max_depth=5, random_state=42)
+#classifier = DecisionTreeClassifier(criterion="entropy", max_depth=4, random_state=42)
+#classifier = DecisionTreeClassifier(criterion="entropy", max_depth=7, random_state=42)
+#classifier = DecisionTreeClassifier(criterion="gini", max_depth=5, random_state=42)
 classifier.fit(X_train, y_train)
 
 # Step 6: Evaluate the Model
@@ -44,7 +47,7 @@ print("Classification Report on the ML:\n", class_report)
 print("Confusion Matrix:\n", conf_matrix)
 
 # Step 7: Visualize the Tree
-plt.figure(figsize=(10, 7))
+plt.figure(figsize=(12, 7))
 plot_tree(classifier, feature_names=X.columns, class_names=["edible", "poisonous"], filled=True)
 plt.show()
 
@@ -52,7 +55,7 @@ plt.show()
 1. We would have to label the data because the dataset contains categorical features. So, we need
 to convert them into numerical values using LabelEncoder()
 2.The max_depth parameter is to control how deep the decision tree can be.
-3.
-4.
-5.
+3.With the confusion martix visable I can see that the values represent true positives, False negatives, False Positives and True Negatives.
+4.When experimenting with the max_depth and increasing it would lead it to higher accuracy on traing data and decreasing it would make it asimpler model
+5.I get more true values compared to entropy. Another thing is that the accuracy of gini is slightly worse 
 """
