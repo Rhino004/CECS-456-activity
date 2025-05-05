@@ -1,0 +1,50 @@
+support,itemsets
+0.21951219512195122,frozenset({'T-Shirt'})
+0.1951219512195122,frozenset({'Running Shoes'})
+0.3170731707317073,frozenset({'Smartwatch'})
+0.14634146341463414,frozenset({'Refrigerator'})
+0.21951219512195122,frozenset({'Jeans'})
+0.17073170731707318,frozenset({'Headphones'})
+0.14634146341463414,frozenset({'Washing Machine'})
+0.2682926829268293,frozenset({'Smartphone'})
+0.21951219512195122,frozenset({'Book'})
+0.14634146341463414,frozenset({'Laptop'})
+0.04878048780487805,"frozenset({'Smartphone', 'T-Shirt'})"
+0.024390243902439025,"frozenset({'Smartwatch', 'T-Shirt'})"
+0.024390243902439025,"frozenset({'Running Shoes', 'T-Shirt'})"
+0.07317073170731707,"frozenset({'Smartwatch', 'Running Shoes'})"
+0.04878048780487805,"frozenset({'Book', 'Running Shoes'})"
+0.024390243902439025,"frozenset({'Refrigerator', 'Smartwatch'})"
+0.04878048780487805,"frozenset({'Refrigerator', 'Running Shoes'})"
+0.024390243902439025,"frozenset({'Refrigerator', 'Washing Machine'})"
+0.04878048780487805,"frozenset({'Refrigerator', 'Headphones'})"
+0.024390243902439025,"frozenset({'Refrigerator', 'Book'})"
+0.024390243902439025,"frozenset({'Refrigerator', 'Smartphone'})"
+0.024390243902439025,"frozenset({'Refrigerator', 'Running Shoes', 'Washing Machine'})"
+0.024390243902439025,"frozenset({'Refrigerator', 'Headphones', 'Smartphone'})"
+0.04878048780487805,"frozenset({'Jeans', 'T-Shirt'})"
+0.07317073170731707,"frozenset({'Jeans', 'Smartwatch'})"
+0.024390243902439025,"frozenset({'Jeans', 'Smartphone'})"
+0.024390243902439025,"frozenset({'Jeans', 'Headphones'})"
+0.024390243902439025,"frozenset({'Headphones', 'Book'})"
+0.04878048780487805,"frozenset({'Smartphone', 'Headphones'})"
+0.024390243902439025,"frozenset({'Headphones', 'T-Shirt'})"
+0.024390243902439025,"frozenset({'Smartwatch', 'Headphones'})"
+0.024390243902439025,"frozenset({'Running Shoes', 'Washing Machine'})"
+0.024390243902439025,"frozenset({'Smartwatch', 'Washing Machine'})"
+0.04878048780487805,"frozenset({'Smartphone', 'Washing Machine'})"
+0.024390243902439025,"frozenset({'Washing Machine', 'T-Shirt'})"
+0.04878048780487805,"frozenset({'Smartwatch', 'Smartphone'})"
+0.04878048780487805,"frozenset({'Jeans', 'Book'})"
+0.024390243902439025,"frozenset({'Smartwatch', 'Book'})"
+0.024390243902439025,"frozenset({'Smartphone', 'Book'})"
+0.024390243902439025,"frozenset({'Jeans', 'Smartwatch', 'Book'})"
+0.024390243902439025,"frozenset({'Laptop', 'Smartphone'})"
+0.04878048780487805,"frozenset({'Laptop', 'T-Shirt'})"
+0.024390243902439025,"frozenset({'Laptop', 'Headphones'})"
+0.024390243902439025,"frozenset({'Laptop', 'Running Shoes'})"
+0.024390243902439025,"frozenset({'Laptop', 'Smartwatch'})"
+0.024390243902439025,"frozenset({'Laptop', 'Washing Machine'})"
+0.024390243902439025,"frozenset({'Laptop', 'Book'})"
+0.024390243902439025,"frozenset({'Laptop', 'Headphones', 'T-Shirt'})"
+0.024390243902439025,"frozenset({'Laptop', 'Smartwatch', 'Running Shoes'})"
